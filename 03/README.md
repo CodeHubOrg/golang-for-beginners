@@ -11,6 +11,6 @@ You can now generate text by visiting
 
 For example to generate text using an `order` of 4, an `iteration` of 1200 and a `starting text` of "Why do you think" in the style of Lewis Carroll visit
 
-http://localhost:8080/markov/caroll?o=4&i=1200&s=Why%20do%20you%20think
+http://localhost:8080/markov/carroll?o=4&i=1200&s=Why%20do%20you%20think
 
-Possible values for `{author}` are `caroll`, `forster` and `shakespeare`.
+Possible values for `{author}` are `carroll`, `forster` and `shakespeare`.

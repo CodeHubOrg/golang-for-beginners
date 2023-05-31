@@ -134,7 +134,7 @@ func loadText(author string) (string, error) {
 	a := strings.ToLower(author)
 	var bookTitleTxt string
 	switch a {
-	case "caroll":
+	case "carroll":
 		bookTitleTxt = "alice_in_wonderland"
 	case "forster":
 		bookTitleTxt = "a_room_with_a_view"

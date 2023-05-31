@@ -23,7 +23,7 @@ $ go run main.go
 ```
 
 ## Content
-By running the provided examples you'll be able to generate an arbitrary length of text in the style of various authors, including William Shakespeare, Lewis Caroll and E. M. Forster.
+By running the provided examples you'll be able to generate an arbitrary length of text in the style of various authors, including William Shakespeare, Lewis Carroll and E. M. Forster.
 
 ## Methodology
 We'll employ the idea of [Markov chains](https://en.wikipedia.org/wiki/Markov_chain) to analyse a sample text, based on which we'll produce new content. By running the algorithm on the aforementioned authors' books, now in the public domain, we can recognise pattern probabilities unique to their individual writing style and, as such, the generated text will follow the same stylistic probabilities.
